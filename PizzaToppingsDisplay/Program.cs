@@ -1,7 +1,5 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 using JsonParserLib;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace PizzaToppingsDisplay
@@ -12,8 +10,8 @@ namespace PizzaToppingsDisplay
         {
             var pizzaService = new PizzaService();
             var AllPizzas = await pizzaService.GetPizzas();
-
             var Toppings = pizzaService.GetTopPizzaConfigurations(AllPizzas);
+
             WriteLine(" - Top 20 Pizza configurations - ");
             WriteLine("Pizza Configuration | Order Count");
             foreach (var topping in Toppings)
