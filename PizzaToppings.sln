@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParserLib", "JsonParserLib\JsonParserLib.csproj", "{000A863E-1110-469A-870B-0B5AA8C69BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaToppingsDisplay", "PizzaToppingsDisplay\PizzaToppingsDisplay.csproj", "{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000A863E-1110-469A-870B-0B5AA8C69BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000A863E-1110-469A-870B-0B5AA8C69BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000A863E-1110-469A-870B-0B5AA8C69BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000A863E-1110-469A-870B-0B5AA8C69BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC8D3B0-098F-4AE1-8CE7-5914848B54D4}
+	EndGlobalSection
+EndGlobal
