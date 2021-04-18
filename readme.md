@@ -12,5 +12,4 @@ I used WebClient per reqeusted requirements.
 
 ## Acknowledgments
 * Thanks Andy for the interview. It was a pleasure.
-* 
 
