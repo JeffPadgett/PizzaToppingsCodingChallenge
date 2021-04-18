@@ -1,6 +1,4 @@
-# Project Title
-
-Pizza Toppings Coding Challenge
+# Pizza Toppings Coding Challenge
 
 ## Installing
 Download repo, run in Visual Studio by clicking the green run arrow or by just simply hitting Ctrl + F5.
