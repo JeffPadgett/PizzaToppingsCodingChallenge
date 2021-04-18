@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParserLib", "JsonParserLib\JsonParserLib.csproj", "{000A863E-1110-469A-870B-0B5AA8C69BDD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaToppingsDisplay", "PizzaToppingsDisplay\PizzaToppingsDisplay.csproj", "{F0B60F8F-5455-4135-B1C4-6FBAB43549CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParserLib", "JsonParserLib\JsonParserLib.csproj", "{000A863E-1110-469A-870B-0B5AA8C69BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
