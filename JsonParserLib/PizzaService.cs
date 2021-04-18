@@ -12,7 +12,7 @@ namespace JsonParserLib
 {
     public class PizzaService
     {
-        // The current standard is HTTP client https://docs.microsoft.com/en-us/dotnet/api/system.net.httpwebrequest?view=net-5.0
+        // The current standard is HttpClient https://docs.microsoft.com/en-us/dotnet/api/system.net.httpwebrequest?view=net-5.0
         public async Task<List<Pizza>> GetPizzas(string strUri = "https://www.brightway.com/CodeTests/pizzas.json")
         {
             var Client = new WebClient();
