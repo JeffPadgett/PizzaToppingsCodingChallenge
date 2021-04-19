@@ -12,8 +12,8 @@ namespace JsonParserLib
         public async Task<List<Pizza>> GetPizzas(string strUri = "https://www.brightway.com/CodeTests/pizzas.json")
         {
             var Client = new WebClient();
-            var json = await Client.DownloadStringTaskAsync(strUri);
-            return DeserializeObject<List<Pizza>>(json);
+            var Json = await Client.DownloadStringTaskAsync(strUri);
+            return DeserializeObject<List<Pizza>>(Json);
         }
 
         public Dictionary<string, int> GetTopPizzaConfigurations(List<Pizza> pizzas)
