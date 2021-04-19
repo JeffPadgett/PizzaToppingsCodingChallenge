@@ -10,14 +10,14 @@ namespace PizzaToppingsDisplay
         {
             var pizzaService = new PizzaService();
             var AllPizzas = await pizzaService.GetPizzas();
-            var Toppings = pizzaService.GetTopPizzaConfigurations(AllPizzas);
+            var TopPizzaConfigurations = pizzaService.GetTopPizzaConfigurations(AllPizzas);
 
             WriteLine(" - Top 20 Pizza configurations - ");
             WriteLine("Pizza Configuration | Order Count");
-            foreach (var topping in Toppings)
+            foreach (var pizza in TopPizzaConfigurations)
             {          
-                WriteLine($"{topping.Key} | {topping.Value}");
-                //TODO : Refactor to handle pinapple exception
+                WriteLine($"{pizza.Key} | {pizza.Value}");
+                //TODO : Refactor to handle pinapple exception - kidding
             }
             ReadLine();
         }
